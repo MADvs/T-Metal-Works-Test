@@ -190,9 +190,6 @@ body {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 360px) {
-    body {
-        display: none;
-    }
 }
 @media screen and (max-width: 548px) {
     .steel-txt {
