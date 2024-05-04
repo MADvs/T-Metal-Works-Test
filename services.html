@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>T Metal Works - Home</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- TOP BAR -->
+        <div class="top-bar-container">
+            <div class="top-bar">
+                <img src="/images/tmetalworks-logo.png" alt="T Metal Works Logo"/>
+                <div class="hamburger-box">
+                    <img src="/images/hamburger-icon.svg" alt="Menu Icon" onclick="openNav()"/>
+                </div>
+                <div id="navCurtain" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About Us</a>
+                        <a href="services.html">Services</a>
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+                <div class="navigation-bar">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="services.html" class="active">Services</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
