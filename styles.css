@@ -191,6 +191,13 @@ body {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 360px) {
+    .mid-bar {
+        font-size: 13px;
+    }
+
+    h1 {
+        padding-top: 20px;
+    }
 }
 @media screen and (max-width: 548px) {
     .steel-txt {
