@@ -190,6 +190,22 @@ body {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 360px) {
+    .steel-txt {
+        text-align: center;
+        margin: auto;
+        h1 {
+            margin-bottom: 5px;
+        }
+    }
+
+    .mid-bar {
+        width: 50%;
+        font-size: 14px;
+    }
+
+    .info-box img {
+        height: 225px;
+    }
 }
 @media screen and (max-width: 548px) {
     .steel-txt {
