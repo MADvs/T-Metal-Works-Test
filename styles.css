@@ -366,7 +366,10 @@ button {
 @media screen and (max-width: 768px) {
     .menu-icon {display: block;}
     .navigation-bar {display: none;}
-    .landing-page {flex-direction: column;}
+    .landing-page {
+        flex-direction: column;
+        justify-content: center;
+    }
     .slideshow-container, .slide img {
         width: 100vw;
         height: fit-content;
