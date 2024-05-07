@@ -2,35 +2,39 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>T Metal Works - Home</title>
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+        <title>T Metal Works</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <!-- LANDING SECTION -->
-        <section class="landing-section">
+        <section id="landingSection">
 
             <!-- TOP BAR -->
             <div class="top-bar-container">
                 <div class="top-bar">
-                    <img src="/images/tmetalworks-logo.png" alt="T Metal Works Logo"/>
-                    <div class="hamburger-box">
-                        <img src="/images/hamburger-icon.svg" alt="Menu Icon" onclick="openNav()"/>
+                    <div class="logo-icon">
+                        <img src="/images/tmetalworks-logo.png" alt="T Metal Works Logo"/>
+                    </div> 
+                    <div class="menu-icon">
+                        <img src="/images/icons/hamburger-icon.svg" alt="Menu Icon" onclick="openNav()"/>
                     </div>
                     <div id="navCurtain" class="overlay">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                         <div class="overlay-content">
                             <a href="index.html">Home</a>
-                            <a href="about.html">About Us</a>
+                            <a href="about.html">About</a>
                             <a href="services.html">Services</a>
-                            <a href="contact.html">Contact Us</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="gallery.html">Gallery</a>
                         </div>
                     </div>
                     <div class="navigation-bar">
                         <a href="index.html" class="active">Home</a>
-                        <a href="about.html">About Us</a>
+                        <a href="about.html">About</a>
                         <a href="services.html">Services</a>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="gallery.html">Gallery</a>
                     </div>
                 </div>
             </div>
@@ -38,11 +42,33 @@
             <!-- LANDING PAGE -->
             <div class="landing-page">
                 <div class="steel">
-                    <img class="steel-img" src="/images/metal-bg.png" alt="Steel Background"/>
-                    <div class="steel-txt">
+                    <div class="steel-text">
                         <h1>WELDING SERVICES</h1>
                         <h2>T Metal Works is a mobile welding contractor servicing residential and commercial clients across the Puget Sound.</h2>
                         <a href="contact.html">GET IN TOUCH!</a>
+                    </div>
+                </div>
+                <div class="slideshow-container">
+                    <div class="slide">
+                        <img class="landing-image" src="/images/TMW/TMWframes1.jpg" alt="Metal Frames"/>
+                    </div>
+                    <div class="slide">
+                        <img class="landing-image" src="/images/TMW/TMWrailings1.jpg" alt="Metal fence and railing"/>
+                    </div>
+                    <div class="slide">
+                        <img class="landing-image" src="/images/TMW/TMWcanopy8.png" alt="Metal canopies"/>
+                    </div>
+                    <div class="slide">
+                        <img class="landing-image" src="/images/TMW/TMWprojects5.png" alt="Worksite image"/>
+                    </div>
+                    <div class="slide">
+                        <img class="landing-image" src="/images/TMW/TMWprojects3.jpg" alt="Worksite image"/>
+                    </div>
+                    <div class="slide">
+                        <img class="landing-image" src="/images/TMW/TMWroof1.jpg" alt="Roof decking"/>
+                    </div>
+                    <div class="slide">
+                        <img class="landing-image" src="/images/TMW/TMWcolumns3.jpg" alt="Column and beam connections"/>
                     </div>
                 </div>
             </div>
@@ -60,51 +86,56 @@
         </section>
 
         <!-- INFO SECTION-->
-        <section class="what-we-do">
-            <div class="info-box">
-                <img src="/images/TMWframes1.jpg" alt="Metal Frames Picture"/>
-                <h3>WHAT WE DO</h3>
-                <p>Welding, fabrication, and installation is our speciality. With the use of mig <i>(FCAW, GMAW)</i> and stick <i>(SMAW)</i>, we can accomplish any result, from small, artistic weldments, to seismic and critical connections. Our installations include canopies, awnings, moment frames, handguards and rails, column and beam connections, stairs, corrugated roof decking, and much more.</p>
-                <a href="services.html">LEARN MORE ABOUT OUR SERVICES</a>
+        <section id="infoSection">
+            <div class="info-grid">
+                <div class="info-box">
+                    <img src="/images//TMW/TMWframes1.jpg" alt="placeholder"/>
+                    <div class="info-box-text">
+                        <h3>WHAT WE DO</h3>
+                        <p>Welding, fabrication, and installation is our speciality. With the use of mig <i>(FCAW, GMAW)</i> and stick <i>(SMAW)</i>, we can accomplish any result, from small, artistic weldments, to seismic and critical connections. Our installations include canopies, awnings, moment frames, handguards and rails, column and beam connections, stairs, corrugated roof decking, and much more.</p>
+                        <a href="services.html">LEARN MORE ABOUT OUR SERVICES</a>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <img src="/images/TMW/TMWcanopy8.png" alt="placeholder"/>
+                    <div class="info-box-text">
+                        <h3>WHO WE ARE</h3>
+                        <p>Since 2015, T Metal Works has been servicing clients in Seattle and the surrounding areas. We are a small, independent business that always strives for the very best in quality and production. With us, you will get service tailored specifically to your needs, without the inconvenience that comes with big business.</p>
+                        <a href="about.html">LEARN MORE ABOUT US</a>
+                    </div>
+                </div>
             </div>
-            <div class="info-box">
-                <img src="/images/TMWframes1.jpg" alt="placeholder"/>
-                <h3>WHO WE ARE</h3>
-                <p>Since 2015, T Metal Works has been servicing clients in Seattle and the surrounding areas. We are a small, independent business that always strives for the very best in quality and production. With us, you'll get service tailored specifically for your needs, without the hassle that comes with big business.</p>
-                <a href="about.html">LEARN MORE ABOUT US</a>
+            <div class="list-grid">
+                <div class="list-box">
+                    <img class="icon" src="/images/icons/service-icon.png" alt="Service Icon"/>
+                    <h4>UNBEATABLE SERVICE</h4>
+                    <p><i>"Tony is solid. His quality, speed, reliability, and personality make him our top choice for anything metal work."</i><br>-Commercial Client, Seattle</p>
+                </div>
+                <div class="list-box">
+                    <img class="icon" src="/images/icons/limit-icon.png" alt="Service Icon"/>
+                    <h4>NO LIMITS</h4>
+                    <p>We always strive for the very best in quality and production - No request is too big or too small!</p>
+                </div>
+                <div class="list-box">
+                    <img class="icon" src="/images/icons/quote-icon.png" alt="Service Icon"/>
+                    <h4>FREE QUOTE</h4>
+                    <p>Call or email us today for a free quote with field measurements, sketches, and estimated time frame to complete your project</p>
+                </div>
             </div>
-            <div class="info-box list-box">
-                <img class="icon" src="/images/certificate-icon.png" alt="Certification Icon"/>
-                <h3>PROFESSIONALLY QUALIFIED</h3>
-                    <li>WABO Certified</li>
-                    <li>Journeyman Ironworker</li>
-                    <li>Certified Signalman and Rigger</li>
-                    <li>Heavy Machinery Operator</li>
-                    <li>Licensed, Bonded, and Insured</li>
-                    <li>L&I Compliant</li>
-            </div>
-            <div class="info-box list-box">
-                <img class="icon" src="images/safety-icon.png" alt="Safety Icon"/>
-                <h3>SAFETY FIRST</h3>
-                    <li>OSHA Compliant</li>
-                    <li>WISHA Compliant</li>
-                    <li>Personal Protective Equipment</li>
-                    <li>Site-Specific Safety Plan</li>
-                    <li>Equipment Certifications and Training</li>
-            </div>
+
         </section>
 
         <!-- CONTACT INFO -->
         <div class="contact-container">
             <div class="contact-bar">
                 <div class="contact-box">
-                    <img class="icon" src="/images/phone-icon.svg" alt="Phone Icon"/>
+                    <img class="icon" src="/images/icons/phone-icon.svg" alt="Phone Icon"/>
                     <p>CALL US:</p>
-                    <a href="tel:206-747-7314">206-747-7314</a>
+                    <a href="tel:206-747-7314">Tel: 206-747-7314</a>
                 </div>
                 <hr>
                 <div class="contact-box">
-                    <img class="icon" src="/images/email-icon.svg" alt="Email icon"/>
+                    <img class="icon" src="/images/icons/email-icon.svg" alt="Email icon"/>
                     <p>EMAIL:</p>
                     <a href="mailto:TonysMetalWorksLLC@gmail.com">TonysMetalWorksLLC@gmail.com</a>
                 </div>

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>T Metal Works - Home</title>
+        <title>T Metal Works - Contact</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -11,8 +11,8 @@
         <div class="top-bar-container">
             <div class="top-bar">
                 <img src="/images/tmetalworks-logo.png" alt="T Metal Works Logo"/>
-                <div class="hamburger-box">
-                    <img src="/images/hamburger-icon.svg" alt="Menu Icon" onclick="openNav()"/>
+                <div class="menu-icon">
+                    <img src="/images/icons/hamburger-icon.svg" alt="Menu Icon" onclick="openNav()"/>
                 </div>
                 <div id="navCurtain" class="overlay">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -20,14 +20,77 @@
                         <a href="index.html">Home</a>
                         <a href="about.html">About Us</a>
                         <a href="services.html">Services</a>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="gallery.html">Gallery</a>
                     </div>
                   </div>
                 <div class="navigation-bar">
                     <a href="index.html">Home</a>
                     <a href="about.html">About Us</a>
                     <a href="services.html">Services</a>
-                    <a href="contact.html" class="active">Contact Us</a>
+                    <a href="contact.html" class="active">Contact</a>
+                    <a href="gallery.html">Gallery</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- LANDING SECTION -->
+        <div class="landing-page">
+            <div class="steel-text">
+                <h1>CONTACT</h1>
+                <h2>GET IN TOUCH TODAY!</h2>
+            </div>
+        </div>
+
+        <!-- FORM -->
+            <div class="info-box form-box">
+                <h4>SEND US AN EMAIL</h4>
+                <form id="contact" name="Contact Form" method="post" data-netlify="true">
+                    <input type="hidden" name="subject" value="%{formName} sent you a message!"/>
+                    <div class="input-group">
+                        <label for="name">Name</label>
+                        <input id="name" aria-label="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input id="email" aria-label="email" name="email" placeholder="Email Address" type="email" required>
+                    </div>
+                    <div class="input-group textarea">
+                        <label for="message">Message</label>
+                        <textarea id="message" aria-label="write your message" name="message" placeholder="Write your message..." required></textarea>
+                    </div>
+                    <p class="form-submit">
+                        <button name="submit" type="submit" id="contact-submit" class="button-solid">Submit</button>
+                    </p>
+                </form>
+            </div>
+            <div class="info-grid">
+                <div class="list-box">
+                    <img class="icon" src="/images/icons/phone-icon.svg" alt="Phone Icon"/>
+                        <h4>CALL US:</h4>
+                        <a href="tel:206-747-7314">Tel: 206-747-7314</a>
+                </div>
+                <div class="list-box">
+                    <img class="icon" src="/images/icons/email-icon.svg" alt="Email icon"/>
+                    <h4>EMAIL:</h4>
+                    <a href="mailto:TonysMetalWorksLLC@gmail.com">TonysMetalWorksLLC@gmail.com</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT INFO -->
+        <div class="contact-container">
+            <div class="contact-bar">
+                <div class="contact-box">
+                    <img class="icon" src="/images/icons/phone-icon.svg" alt="Phone Icon"/>
+                        <p>CALL US:</p>
+                        <a href="tel:206-747-7314">Tel: 206-747-7314</a>
+                </div>
+                <hr>
+                <div class="contact-box">
+                    <img class="icon" src="/images/icons/email-icon.svg" alt="Email icon"/>
+                    <p>EMAIL:</p>
+                    <a href="mailto:TonysMetalWorksLLC@gmail.com">TonysMetalWorksLLC@gmail.com</a>
                 </div>
             </div>
         </div>
