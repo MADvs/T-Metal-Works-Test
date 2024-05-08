@@ -9,6 +9,7 @@ const roofsBox = document.getElementById('roofsBox');
 const stairsBox = document.getElementById('stairsBox');
 const weldsBox = document.getElementById('weldsBox');
 const checkBoxes = document.querySelectorAll('.checkbox');
+const galleryBoxes = document.querySelectorAll('.gallery-box')
 
 const items = document.getElementsByClassName('item');
 const awnings = document.getElementsByClassName('awnings');
@@ -30,6 +31,10 @@ checkBoxes.forEach((checkbox) => {
 
 function RenderItems() {
     for (const item of items) {
+        item.classList.remove('hidden');
+    }
+
+    for (const item of galleryBoxes) {
         item.classList.remove('hidden');
     }
 
