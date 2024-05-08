@@ -376,7 +376,6 @@ button {
 }
 
 .gallery-box {
-<<<<<<< HEAD
     margin: 3vw;
     background-color: #c7c7c7;
     padding: 1vw;
@@ -404,13 +403,11 @@ button {
 .gallery-box hr {
     width: 50%;
     border-color: var(--gray2);
-=======
     margin-bottom: 5px;
 }
 
 .gallery-box img {
     border: 1px solid var(--gray4);
->>>>>>> 33dbbed50523aced13a982b4af094669acabeaf1
 }
 
 .hidden {
@@ -423,7 +420,6 @@ button {
     body {display: none;}
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 480px) {
     .gallery-box img {
         width: 100%;
@@ -437,8 +433,6 @@ button {
     }
 }
 
-=======
->>>>>>> 33dbbed50523aced13a982b4af094669acabeaf1
 @media screen and (max-width: 768px) {
     /* Switch between nav bar and menu icon */
     .menu-icon {
@@ -457,7 +451,6 @@ button {
         height: fit-content;
         width: 100vw;
         aspect-ratio: 4 / 3;
-<<<<<<< HEAD
         margin-left: 5px;
     }
     .steel-text {
@@ -466,11 +459,10 @@ button {
     .items-box {
         flex-direction: column;
         justify-content: center;
-=======
+
     }
     .steel-text {
         text-align: center;
->>>>>>> 33dbbed50523aced13a982b4af094669acabeaf1
     }
 }
 
