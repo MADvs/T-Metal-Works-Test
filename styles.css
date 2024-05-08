@@ -194,13 +194,10 @@ h2 {
 }
 
 .info-box img {
-<<<<<<< HEAD
     aspect-ratio: auto;
     width: 100%;
     margin: auto;
-=======
     width: 100%;
->>>>>>> 33dbbed50523aced13a982b4af094669acabeaf1
 }
 
 .info-box h4 {
