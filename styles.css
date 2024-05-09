@@ -147,7 +147,7 @@ h2 {
 
 .mid-bar h3 {
     text-align: center;
-    font-size: calc(0.7rem + 1vw);
+    font-size: calc(0.7rem + 0.8vw);
     padding: 0 3vw;
 }
 
