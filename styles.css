@@ -505,7 +505,7 @@ button {
         display: flex;
         hr {
             width: 0
-            height: 5vw;
+            height: 5vh;
         }
         p, a {font-size: calc(1em + 0.4vw);}
     }
