@@ -77,7 +77,7 @@ body {
 /* --- LANDING & STEEL SECTIONS --- */
 .landing-page {
     display: flex;
-    background-image: url(/images/steel/seamless.avif);
+    background-image: url(/images/steel/seamless.webp);
     margin: 0 -10px;
 }
 
@@ -491,10 +491,10 @@ button {
         h1 {
             font-size: 82px;
             margin-bottom: 5px;
-            margin-top: 30px;
+            margin-top: 10px;
         }
         h2 {font-size: 30px;
-            margin-bottom: 30px;}
+            margin-bottom: 20px;}
     }
     .slideshow-container, .slide img {
         height: 500px;
