@@ -84,6 +84,7 @@ body {
 .steel, .slideshow-container {
     height: 500px;
     margin: 0;
+    aspect-ratio: 4 / 3;
 }
 
 .slide {
