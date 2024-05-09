@@ -107,14 +107,14 @@ h1, h2 {
     text-shadow: 3px 3px var(--gray2);
 }
 
-h1 {
+.steel-text h1 {
     font-size: calc(3rem + 3vw);
-    margin-bottom: 5vw;
+    margin-bottom: 10vw;
 }
 
 h2 {
     font-size: calc(1.5rem + 1vw);
-    margin-bottom: 5vw;
+    margin-bottom: 10vw;
 }
 
 .steel-text a {
@@ -149,6 +149,11 @@ h2 {
     text-align: center;
     font-size: calc(0.7rem + 0.8vw);
     padding: 0 3vw;
+}
+
+.mid-bar hr {
+    height: 50%;
+    margin: auto;
 }
 
 /* --- BOX TEMPLATES --- */
