@@ -200,8 +200,8 @@ h2 {
 }
 
 .info-box img {
-    aspect-ratio: 4 / 3;
     width: 100%;
+    aspect-ratio: 4 / 3;
     margin: auto;
 }
 
